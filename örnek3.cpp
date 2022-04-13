@@ -4,13 +4,14 @@ int main(){
 	
 	int x,kare;
 	
-	gir :
 	
 	printf("karenin kenar uzunlugunu giriniz=");
 	scanf("%d",&x);
 	
- 	if ( x <= 0)
- 	 	goto gir;
+ 	while (x <= 0){
+ 		printf("yeniden deger giriniz=");
+ 		scanf("%d",&x);
+	 }
  	 	
  	 	
  	kare = x*4;
